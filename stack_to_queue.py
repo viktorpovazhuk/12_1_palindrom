@@ -7,6 +7,7 @@ from arrayqueue import ArrayQueue  # or from linkedqueue import LinkedQueue
 
 
 def stack_to_queue(stack):
+    """Convert st to queue"""
     elements = []
     while not stack.isEmpty():
         elements.append(stack.pop())

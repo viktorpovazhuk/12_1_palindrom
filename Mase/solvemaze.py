@@ -4,7 +4,7 @@ from maze import Maze
 
 # The main routine.
 def main():
-    maze = build_maze("mazefile5.txt")
+    maze = build_maze("mazefile.txt")
     if maze.find_path():
         print("Path found....")
     else:
